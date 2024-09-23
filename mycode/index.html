@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png"class="logo"alt=""></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+           <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+           <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </section>
+        <section id="hero">
+            <h4>Trade-in-offer</h4>
+            <h2>Super value deals</h2>
+            <h1>On all product</h1>
+            <p>Save more with coupons & up to 70% off</p>
+            <button>Shop Now</button>
+
+        </section>
+        <section id="feature"class="section-p1">
+            <div class="fe-box">
+                <img src="images/f1.png" alt="">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="fe-box">
+                <img src="images/f2.png" alt="">
+                <h6>Online order</h6>
+            </div>
+            <div class="fe-box">
+                <img src="images/f3.png" alt="">
+                <h6>Save money</h6>
+            </div>
+            <div class="fe-box">
+                <img src="images/f4.png" alt="">
+                <h6>Promotions</h6>
+            </div>
+            <div class="fe-box">
+                <img src="images/f5.png" alt="">
+                <h6>Happy Sell</h6>
+            </div>
+            <div class="fe-box">
+                <img src="images/f6.png" alt="">
+                <h6>24/7 Support</h6>
+            </div>
+        </section>
+        <section id="product1" class="section-p1">
+            <h2>Featured Product</h2>
+            <p>Ocassion Collect Modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="images/products/i2.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>Pandora bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs200</h4>
+                    </div>
+                    <i class="fal fa-shopping-bag bag" onclick="addToCart('Bulgari pandora bracelet', 200)"></i>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i1.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>golden bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs400</h4>
+                    </div>
+                    <i class="fal fa-shopping-bag bag" onclick="addToCart('bulgari golden bracelet', 400)"></i>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i3.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>kelly bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs200</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i4.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>dropdown bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs250</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i6.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>bin bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs380</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i7.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>triangle bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs100</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i8.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>trin bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs500</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i5.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>golden bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs400</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="banner"class="section-m1">
+            <h4>Repair Services</h4>
+            <h2>Up to <span>70% off</span>-All bracelet</h2>
+            <button class="normal">Explore more</button>
+        </section>
+        <section id="product1" class="section-p1">
+            <h2>New Arrivals</h2>
+            <p>Ocassion Collect Modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="images/products/i9.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>Pandora bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs200</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i10.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>golden bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs400</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i11.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>kelly bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs200</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i12.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>dropdown bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs250</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i13.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>bin bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs380</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i14.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>triangle bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs100</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i17.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>trin bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs500</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/products/i16.jpg"style=" alt="">
+                    <div class="des">
+                        <span>bulgari</span>
+                        <h5>golden bracelet</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <h4>Rs400</h4>
+                    </div>
+                    <a href="#"<i class="fal fa-shopping-bag bag"></i></a>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="sm-banner"class="section-p1">
+            <div class="banner-box">
+                <h4>crazy deals</h4>
+                <h2>buy 1 get 1 free</h2>
+                <span>The best classic is on sale at carac</span>
+                <button class="white">Learn more</button>
+            </div>
+            <div class="banner-box banner-box2">
+                <h4>Party</h4>
+                <h2>upcoming occasion</h2>
+                <span>The best classic is on sale at carac</span>
+                <button class="white">Collection</button>
+            </div>
+
+        </section>
+        <section id="banner3">
+            <div class="banner-box">
+                
+                <h2>season sale</h2>
+                <h3>Winter collection-50% off</h3>
+                
+            </div>
+        </section>
+        <section id="newsletter"class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign up for newsletter</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+                
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign up</button>
+            </div>
+
+        </section>
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="images/logo.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> Madhyapur thimi</p>
+                <p><strong>Phone:</strong>974486635</p>
+                <p><strong>Hours:</strong>10:00-18:00,Mon-Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="col">
+                <h4>MY account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="images/app.jpg" alt="">
+                    <img src="images/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/products/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>@ 2021,Tech2etc -HTML CSS Ecommerce Template </p>
+
+            </div>
+        </footer>
+
+
+
+
+        <script type="text/javascript" src="script.js"></script>
+            <script>
+                function addToCart(productName, productPrice) {
+                    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                    
+                    let product = cart.find(item => item.name === productName);
+                    if (product) {
+                        product.quantity += 1;
+                    } else {
+                        cart.push({ name: productName, price: productPrice, quantity: 1 });
+                    }
+        
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                }
+            </script>
+
+    </body>  
+
+</html>
